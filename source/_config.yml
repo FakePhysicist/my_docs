@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: "地震“学”科研入门教程"
-author: seismo-learn
-copyright : "2020–2022"
+title: "A Fake Physicist's Notes"
+author: FakePhysicist
+copyright : "2021–2023"
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -21,6 +21,7 @@ parse:
     - substitution
     - tasklist
   myst_substitutions:
+    FakePhysicist: "[FakePhysicist](https://fakephysicist.github.io/)"
     田冬冬: "[田冬冬](https://me.seisman.info/)"
     姚家园: "[姚家园](https://github.com/core-man)"
     王亮: "[王亮](https://github.com/wangliang1989)"
@@ -32,7 +33,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/seismo-learn/seismology101
+  url: https://github.com/FakePhysicist/my_docs
   path_to_book: source
   branch: main
 

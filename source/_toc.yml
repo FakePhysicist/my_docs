@@ -31,38 +31,6 @@ parts:
       - file: programming/c
       - file: programming/markdown
     - file: programming/git
-  - caption: 地震学基础
-    chapters:
-    - file: seismology/intro
-    - file: seismology/seismic-source
-    - file: seismology/seismic-wave
-    - file: seismology/seismic-phase
-    - file: seismology/seismogram
-    - file: seismology/station
-    - file: seismology/data-format
-    - file: seismology/software
-    - file: seismology/resources
-  - caption: 地震学实践
-    chapters:
-    - file: exercises/intro
-    - file: exercises/prerequisite
-    - file: exercises/download
-      sections:
-      - file: exercises/catalog
-      - file: exercises/station
-      - file: exercises/waveform
-    - file: exercises/preprocessing
-    - file: exercises/process
-      sections:
-      - file: exercises/rotate
-      - file: exercises/filter
-    - file: exercises/analysis
-      sections:
-      - file: exercises/catalog-analysis
-      - file: exercises/particle-motion
-      - file: exercises/cross-correlation
-      - file: exercises/distaz
-      - file: exercises/phases
   - caption: 实践经验
     chapters:
     - file: best-practices/intro
@@ -78,9 +46,5 @@ parts:
     - file: best-practices/vscode
   - caption: 外部链接
     chapters:
-    - url: https://seismo-learn.org/
-      title: 地震“学”主站
-    - url: https://seismo-learn.org/contributing/
-      title: 贡献指南
-    - url: https://github.com/seismo-learn/seismology101/discussions
-      title: 参与讨论
+    - url: https://fakephysicist.github.io/
+      title: FakePhysicist's Notes
