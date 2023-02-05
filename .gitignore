@@ -2,7 +2,7 @@
 _build
 
 # VS Code
-.vscode
+# .vscode
 
 # Jupyter Notebook
 .ipynb_checkpoints/
